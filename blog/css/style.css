@@ -237,6 +237,11 @@ nav a:active{
     background-color: #000;
 }
 
+.expand {
+    font-size: 0.25rem;
+    text-align: left;
+}
+
 /*Nav Links use code from other project where this was already done */
 
 

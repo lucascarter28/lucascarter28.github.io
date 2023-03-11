@@ -164,6 +164,7 @@ nav {
 
 .subsection {
     display: flex;
+    size: 0.25rem;
 }
 
 /* Images and Figures */

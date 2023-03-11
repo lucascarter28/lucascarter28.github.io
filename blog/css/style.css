@@ -104,7 +104,9 @@ h1 {
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     color: #f2f2f2;
-    background-color: aqua;
+    background-color: aqua; 
+    box-shadow: 5px 5px 4px -1px #888;
+    /* use some of this code for the subscribe button*/
 }
 
 /*General Setup and Defaults */
@@ -147,6 +149,17 @@ nav {
 .aside {
     grid-column: 2 / 3;
     grid-row: 1; 
+    border-left: 1px solid #282828;
+    padding-left: 0.75rem;
+}
+
+.aside p {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 0.5rem;
+}
+
+.aside #x26AB{
+    padding-bottom: 0.75rem;
 }
 
 .subsection {
